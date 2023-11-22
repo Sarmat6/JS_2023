@@ -214,7 +214,7 @@ console.log('________________________________')
 //         за допомоги  оператора || буде присвоювати змінній х значення "default"  якщо значення змінної х являється falsy (хибноподібні, тобто приводиться до false)
 
 let falsyX = prompt('Негативне значення:')
-if (falsyX === `0` || falsyX === '' || falsyX === `null` || falsyX === `NaN` || falsyX === `undefined`){
+if (falsyX === `0` || falsyX === '' || falsyX === `null` || falsyX === `NaN` || falsyX === `undefined` || falsyX === `false`){
     console.log('falsyX = default')
     falsyX = 'default'
 } else {
