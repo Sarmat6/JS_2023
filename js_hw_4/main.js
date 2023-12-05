@@ -142,7 +142,7 @@ function swap(arr,index1,index2){
     arr[index2] = x
     return arr
 }
-document.write(swap([a = 1, b = 2, c = 3, d = 4], 0, 1))
+document.write(swap([1, 2, 3, 4], 0, 1))
 
 document.write('<br>____________________________________________________________________<br>')
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
