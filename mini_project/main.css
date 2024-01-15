@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*index.html - всі блоки з user - по 2 в рядок. кнопки/аосилвння розташувати під інформацією про user.*/
+
+.mainDiv{
+    height: 100vh;
+    width: 100vw;
+    padding: 50px 0 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(225, 115, 3, 0.68);
+    color: #ffe800;
+}
+.divIndex{
+    height:10%;
+    width: 47%;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 200px;
+    background: #b8590b;
+}
+.buttonIndex{
+    height: 30vh;
+    width: 40vw;
+    margin: 10px;
+    background: #ffd822;
+    border: none;
+    border-radius: 15px;
+}
+
+/*user-details.html - блок з інфою про user зверху сторінки. Кнопка нижчє, на 90% ширини сторінки, по центру.*!*/
+/*блоки з короткою іфною про post - в ряд по 5 .*/
+
+.userInfo{
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    background: rgba(132, 0, 255, 0.82);
+    color: white;
+}
+.buttonPost{
+    height: 5vh;
+    width: 90vw;
+    margin: 10px;
+    background: orange;
+    border: none;
+    border-radius: 15px;
+}
+.bodyComments{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.titleComments{
+    height: 20vh;
+    width: 18vw;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background: orange;
+    border-radius: 10px;
+}
+.divTitle{
+    height: 10vh;
+}
+.buttonDetails{
+    height: 5vh;
+    width: 10vw;
+    margin: 10px;
+    background: rgba(132, 0, 255, 0.66);
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+
+/*post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*!*/
+/*Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки (дати фон. марджини і тд)*/
+
+.mainCommentsDiv{
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(255, 0, 239, 0.58);
+}
+.postInfo{
+    width: 55vw;
+    font-size: 16pt;
+}
+.postBody{
+    height: 15vh;
+    width: 55vw;
+    margin-bottom: 150px;
+    text-align: center;
+    font-size: 24pt;
+}
+.commentDiv{
+    height: 25vh;
+    width: 22vw;
+    padding: 10px;
+    margin: 5px;
+    background: rgba(0, 34, 255, 0.6);
+    border-radius: 10px;
+}
+.allComments{
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
